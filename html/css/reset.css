@@ -1,11 +1,26 @@
 @charset "utf-8";
 
 /* font */
+/* Corbel - 400, 700 */
 /* SUIT - 100, 200, 300, 400, 500, 600, 700, 800, 900 */
 /* Pretendard - 100, 200, 300, 400, 500, 600, 700, 800, 900 */
 /* Noto Sans CJK KR - 300, 400, 500, 700 */
 /* NanumSquare - 200, 400, 700, 800 */
 /* NanumSquareAc - 200, 400, 700, 800 */
+
+/* corbel */
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Corbel';
+    src: url('../font/corbel-webfont.woff') format('woff');
+}
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Corbel';
+    src: url('../font/corbelbold-webfont.woff') format('woff');
+}
 
 /* SUIT */
 @font-face {
@@ -284,7 +299,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     font-weight: 400;
-    font-family: 'Pretendard', 'Noto Sans CJK KR', 'Helvetica Neue', 'Apple SD Gothic Neo', Arial, sans-serif;
+    font-family: 'Helvetica Neue', 'Apple SD Gothic Neo', Arial, sans-serif;
 }
 input[type=search]::-webkit-search-cancel-button {
 	-webkit-appearance: none;
