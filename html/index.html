@@ -12,7 +12,9 @@
 	<link rel="icon" type="image/png" sizes="196x196" href="images/favicon_196.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_32.png">
 	<!-- lib / jquery-ui -->
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<!-- js -->
+	<script src="js/common.js"></script>
 	<!-- icon -->
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -34,29 +36,110 @@
 		<header>
 			<div class="tnb_area">
 				<div class="site_link">
-					<a href=""><span>KTL</span>대표홈페이지</a>
+					<a class="tnb_logo" href=""><span class="hide">KTL</span>대표홈페이지</a>
 					<a href="">고객전용홈페이지</a>
 				</div>
 				<div class="tnb">
-					<a href="">로그인</a>
-					<a href="">개인정보수정</a>
+					<a class="login" href="">로그인</a>
+					<a class="privacy" href="">개인정보수정</a>
 				</div>
 			</div>
 
 			<div class="gnb_area">
 				<h1>
-					<a href="">Ktools KTL 장비관리플랫폼 LOGO</a>
+					<a href="">
+						<img src="images/ktools_logo.svg" alt="Ktools KTL 장비관리플랫폼 LOGO">
+					</a>
 				</h1>
 				<nav class="gnb">
-					<ul>
-						<li><a href="">K-tools 소개</a></li>
-						<li><a href="">장비관리플랫폼</a></li>
-						<li><a href="">EXFINDER</a></li>
-						<li><a href="">게시판</a></li>
+					<ul class="gnb_layout">
+						<li>
+							<a href="">K-tools 소개</a>
+							<ul>
+								<li>
+									<a href="">K-tools</a>
+								</li>
+								<li>
+									<a href="">장비관리플랫폼</a>
+								</li>
+								<li>
+									<a href="">EXFINDER</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="">장비관리플랫폼</a>
+							<ul>
+								<li>
+									<a href="">회원정보</a>
+								</li>
+								<li>
+									<a href="">교정 견적 신청</a>
+								</li>
+								<li>
+									<a href="">나의 접수 현황</a>
+								</li>
+								<li>
+									<a href="">협업관리</a>
+								</li>
+								<li>
+									<a href="">나눔터</a>
+								</li>
+								<li>
+									<a href="">장비관리</a>
+								</li>
+								<li>
+									<a href="">교정 접수 신청</a>
+								</li>
+								<li>
+									<a href="">시약관리</a>
+								</li>
+								<li>
+									<a href="">시험/측정관리</a>
+								</li>
+								<li>
+									<a href="">교정이란</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">EXFINDER</a>
+							<ul>
+								<li>
+									<a href="">연구자검색</a>
+								</li>
+								<li>
+									<a href="">연구기관검색</a>
+								</li>
+								<li>
+									<a href="">시설/장비검색</a>
+								</li>
+								<li>
+									<a href="">문서검색</a>
+								</li>
+								<li>
+									<a href="">마이페이지</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">게시판</a>
+							<ul>
+								<li>
+									<a href="">공지사항</a>
+								</li>
+								<li>
+									<a href="">Q&A</a>
+								</li>
+							</ul>
+						</li>
 					</ul>
 				</nav>
+
 				<button>
-					<span>MENU</span>
+					<i class="icon_menu"></i>
+					<span class="hide">MENU</span>
 				</button>
 			</div>
 		</header>
@@ -95,10 +178,10 @@
 							<span>나의 시스템 사용 현황을 확인하실 수 있습니다.</span>
 						</h3>
 						<ul class="icon_list_style">
-							<li><a href=""><span>장비관리</span></a></li>
-							<li><a href=""><span>견적신청</span></a></li>
-							<li><a href=""><span>접수신청</span></a></li>
-							<li><a href=""><span>시약관리</span></a></li>
+							<li><a href=""><span>회원정보</span></a></li>
+							<li><a href=""><span>접수현황</span></a></li>
+							<li><a href=""><span>사용자매뉴얼</span></a></li>
+							<li><a href=""><span>현업현황</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -116,10 +199,10 @@
 								<a href="">장비관리플랫폼 K-tools 오픈</a>
 								<span>2021-03-11</span>
 							</li>
-							<li><a href="">
-								K-Tools 사용자 메뉴얼
+							<li>
+								<a href="">K-Tools 사용자 메뉴얼</a>
 								<span>2021-12-13</span>
-							</a></li>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -130,14 +213,14 @@
 							<a href="">더보기</a>
 						</h3>
 						<ul>
-							<li><a href="">
-								장비등록 관련 문의입니다.
+							<li>
+								<a href="">장비등록 관련 문의입니다.</a>
 								<span>2022-04-28</span>
-							</a></li>
-							<li><a href="">
-								장비등록 validation 문의드립니다.
+							</li>
+							<li>
+								<a href="">장비등록 validation 문의드립니다.</a>
 								<span>2021-06-10</span>
-							</a></li>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -148,14 +231,14 @@
 							<a href="">더보기</a>
 						</h3>
 						<ul>
-							<li><a href="">
-								Ph meter
+							<li>
+								<a href="">Ph meter</a>
 								<span>2021-06-10</span>
-							</a></li>
-							<li><a href="">    
-								회전형점도계(brookfield)
+							</li>
+							<li>
+								<a href="">회전형점도계(brookfield)</a>
 								<span>2021-08-11</span>
-							</a></li>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -164,12 +247,26 @@
 		</main>
 
 		<footer>
-			<div class="left">
-				<h3>logo</h3>
+			<div>
+				<div class="ft_link">
+					<h3>
+						<a href=""><img src="images/ktl_logo.svg" alt="KTL 한국산업기술시험원 LOGO"></a>
+					</h3>
+					<ul>
+						<li>
+							<a href="">개인정보처리방침</a>
+						</li>
+						<li>
+							<a href="">약도안내</a>
+						</li>
+						<li>
+							<a href="">담당자안내</a>
+						</li>
+					</ul>
+				</div>
 				<p><span>주소</span> 우&#41; 15588 경기도 안산시 상록구 해안로 723&#40;사동&#41;</p>
 				<p>Copyright &#40;c&#41; 2023 Korea Testinglaboratory. All rights Reserved.</p>
-			</div>
-			<div class="right"></div>
+			</div>			
 		</footer>
 
 	</section>

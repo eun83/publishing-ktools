@@ -321,3 +321,36 @@ fieldset {
     line-height: 0;
     z-index: -1;
 }
+
+/* css icon */
+    /* menu */
+.icon_menu {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 26px;
+    height: 4px;
+    margin-top: -2px;
+    color: currentColor;
+    transform: translateX(-50%);
+    background-color: currentColor;
+}
+.icon_menu::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 26px;
+    height: 4px;
+    background-color: currentColor;
+}
+.icon_menu::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 26px;
+    height: 4px;
+    background-color: currentColor;
+}
