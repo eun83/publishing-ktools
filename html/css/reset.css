@@ -10,347 +10,424 @@
 
 /* corbel */
 @font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Corbel';
-    src: url('../font/corbel-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Corbel';
+  src: url('../font/corbel-webfont.woff') format('woff');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'Corbel';
-    src: url('../font/corbelbold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Corbel';
+  src: url('../font/corbelbold-webfont.woff') format('woff');
 }
 
 /* SUIT */
 @font-face {
-    font-style: normal;
-    font-weight: 100;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Thin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Thin.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 200;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-ExtraLight.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-ExtraLight.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 300;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Light.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Regular.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 500;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Medium.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 600;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-SemiBold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Bold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 800;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-ExtraBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-ExtraBold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 900;
-    font-family: 'SUIT';
-    src: url('../font/SUIT-Heavy.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+  font-family: 'SUIT';
+  src: url('../font/SUIT-Heavy.woff2') format('woff2');
 }
+
 /* Pretendard */
 @font-face {
-    font-style: normal;
-    font-weight: 100;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Thin.woff') format('woff'),
-        url('../font/Pretendard-Thin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Thin.woff') format('woff'),
+    url('../font/Pretendard-Thin.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 200;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-ExtraLight.woff') format('woff'),
-        url('../font/Pretendard-ExtraLight.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-ExtraLight.woff') format('woff'),
+    url('../font/Pretendard-ExtraLight.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 300;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Light.woff') format('woff'),
-        url('../font/Pretendard-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Light.woff') format('woff'),
+    url('../font/Pretendard-Light.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Regular.woff') format('woff'),
-        url('../font/Pretendard-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Regular.woff') format('woff'),
+    url('../font/Pretendard-Regular.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 500;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Medium.woff') format('woff'),
-        url('../font/Pretendard-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Medium.woff') format('woff'),
+    url('../font/Pretendard-Medium.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 600;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-SemiBold.woff') format('woff'),
-        url('../font/Pretendard-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-SemiBold.woff') format('woff'),
+    url('../font/Pretendard-SemiBold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Bold.woff') format('woff'),
-        url('../font/Pretendard-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Bold.woff') format('woff'),
+    url('../font/Pretendard-Bold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 800;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-ExtraBold.woff') format('woff'),
-        url('../font/Pretendard-ExtraBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-ExtraBold.woff') format('woff'),
+    url('../font/Pretendard-ExtraBold.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 900;
-    font-family: 'Pretendard';
-    src: url('../font/Pretendard-Black.woff') format('woff'),
-        url('../font/Pretendard-Black.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+  font-family: 'Pretendard';
+  src: url('../font/Pretendard-Black.woff') format('woff'),
+    url('../font/Pretendard-Black.woff2') format('woff2');
 }
+
 /* Noto Sans CJK KR */
 @font-face {
-    font-style: normal;
-    font-weight: 300;
-    font-family: 'Noto Sans CJK KR';
-    src: url('../font/NotoSansCJKKR-Light.woff') format('woff'),
-        url('../font/NotoSansCJKKR-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Noto Sans CJK KR';
+  src: url('../font/NotoSansCJKKR-Light.woff') format('woff'),
+    url('../font/NotoSansCJKKR-Light.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Noto Sans CJK KR';
-    src: url('../font/NotoSansCJKKR-Regular.woff') format('woff'),
-        url('../font/NotoSansCJKKR-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Noto Sans CJK KR';
+  src: url('../font/NotoSansCJKKR-Regular.woff') format('woff'),
+    url('../font/NotoSansCJKKR-Regular.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 500;
-    font-family: 'Noto Sans CJK KR';
-    src: url('../font/NotoSansCJKKR-Medium.woff') format('woff'),
-        url('../font/NotoSansCJKKR-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Noto Sans CJK KR';
+  src: url('../font/NotoSansCJKKR-Medium.woff') format('woff'),
+    url('../font/NotoSansCJKKR-Medium.woff2') format('woff2');
 }
+
 @font-face {
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'Noto Sans CJK KR';
-    src: url('../font/NotoSansCJKKR-Bold.woff') format('woff'),
-        url('../font/NotoSansCJKKR-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Noto Sans CJK KR';
+  src: url('../font/NotoSansCJKKR-Bold.woff') format('woff'),
+    url('../font/NotoSansCJKKR-Bold.woff2') format('woff2');
 }
+
 /* NanumSquare */
 @font-face {
-    font-weight: 200;
-    font-family: 'NanumSquare';
-    src: url('../font/NanumSquareL.eot');
-    src: url('../font/NanumSquareL.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquareL.woff') format("woff"),
-        url('../font/NanumSquareL.ttf') format("truetype");
+  font-weight: 200;
+  font-family: 'NanumSquare';
+  src: url('../font/NanumSquareL.eot');
+  src: url('../font/NanumSquareL.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquareL.woff') format("woff"),
+    url('../font/NanumSquareL.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 400;
-    font-family: 'NanumSquare';
-    src: url('../font/NanumSquareR.eot');
-    src: url('../font/NanumSquareR.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquareR.woff') format("woff"),
-        url('../font/NanumSquareR.ttf') format("truetype");
+  font-weight: 400;
+  font-family: 'NanumSquare';
+  src: url('../font/NanumSquareR.eot');
+  src: url('../font/NanumSquareR.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquareR.woff') format("woff"),
+    url('../font/NanumSquareR.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 700;
-    font-family: 'NanumSquare';
-    src: url('../font/NanumSquareB.eot');
-    src: url('../font/NanumSquareB.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquareB.woff') format("woff"),
-        url('../font/NanumSquareB.ttf') format("truetype");
+  font-weight: 700;
+  font-family: 'NanumSquare';
+  src: url('../font/NanumSquareB.eot');
+  src: url('../font/NanumSquareB.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquareB.woff') format("woff"),
+    url('../font/NanumSquareB.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 800;
-    font-family: 'NanumSquare';
-    src: url('../font/NanumSquareEB.eot');
-    src: url('../font/NanumSquareEB.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquareEB.woff') format("woff"),
-        url('../font/NanumSquareEB.ttf') format("truetype");
+  font-weight: 800;
+  font-family: 'NanumSquare';
+  src: url('../font/NanumSquareEB.eot');
+  src: url('../font/NanumSquareEB.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquareEB.woff') format("woff"),
+    url('../font/NanumSquareEB.ttf') format("truetype");
 }
+
 /* NanumSquareAc */
 @font-face {
-    font-weight: 200;
-    font-family: 'NanumSquareAc';
-    src: url('../font/NanumSquare_acL.eot');
-    src: url('../font/NanumSquare_acL.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquare_acL.woff') format("woff"),
-        url('../font/NanumSquare_acL.ttf') format("truetype");
+  font-weight: 200;
+  font-family: 'NanumSquareAc';
+  src: url('../font/NanumSquare_acL.eot');
+  src: url('../font/NanumSquare_acL.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquare_acL.woff') format("woff"),
+    url('../font/NanumSquare_acL.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 400;
-    font-family: 'NanumSquareAc';
-    src: url('../font/NanumSquare_acR.eot');
-    src: url('../font/NanumSquare_acR.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquare_acR.woff') format("woff"),
-        url('../font/NanumSquare_acR.ttf') format("truetype");
+  font-weight: 400;
+  font-family: 'NanumSquareAc';
+  src: url('../font/NanumSquare_acR.eot');
+  src: url('../font/NanumSquare_acR.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquare_acR.woff') format("woff"),
+    url('../font/NanumSquare_acR.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 700;
-    font-family: 'NanumSquareAc';
-    src: url('../font/NanumSquare_acB.eot');
-    src: url('../font/NanumSquare_acB.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquare_acB.woff') format("woff"),
-        url('../font/NanumSquare_acB.ttf') format("truetype");
+  font-weight: 700;
+  font-family: 'NanumSquareAc';
+  src: url('../font/NanumSquare_acB.eot');
+  src: url('../font/NanumSquare_acB.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquare_acB.woff') format("woff"),
+    url('../font/NanumSquare_acB.ttf') format("truetype");
 }
+
 @font-face {
-    font-weight: 800;
-    font-family: 'NanumSquareAc';
-    src: url('../font/NanumSquare_acEB.eot');
-    src: url('../font/NanumSquare_acEB.eot?#iefix') format("embedded-opentype"),
-        url('../font/NanumSquare_acEB.woff') format("woff"),
-        url('../font/NanumSquare_acEB.ttf') format("truetype");
+  font-weight: 800;
+  font-family: 'NanumSquareAc';
+  src: url('../font/NanumSquare_acEB.eot');
+  src: url('../font/NanumSquare_acEB.eot?#iefix') format("embedded-opentype"),
+    url('../font/NanumSquare_acEB.woff') format("woff"),
+    url('../font/NanumSquare_acEB.ttf') format("truetype");
 }
 
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
-    color: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
 }
+
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
-    flex-shrink: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
+
 :root {
-    line-height: 1.5;
-    cursor: default;
-    -webkit-tap-highlight-color: transparent;
-    /* 모바일 클릭시 검은색영역 사라짐 */
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-    /* 모바일에서도 원래의 폰트 크기대로 출력 */
-    overflow-wrap: break-word;
-    /* 루트에 걸어두면 띄어쓰기 없을때 글자 빠져나가는것 방지 */
-    -moz-tab-size: 4;
-    tab-size: 4;
+  line-height: 1.5;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+  /* 모바일 클릭시 검은색영역 사라짐 */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* 모바일에서도 원래의 폰트 크기대로 출력 */
+  overflow-wrap: break-word;
+  /* 루트에 걸어두면 띄어쓰기 없을때 글자 빠져나가는것 방지 */
+  -moz-tab-size: 4;
+  tab-size: 4;
 }
+
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
+
 img,
 picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
+
 button {
-    border: 0;
-    background: none;
-    cursor: pointer;
+  border: 0;
+  background: none;
+  cursor: pointer;
 }
+
 a,
 a:focus,
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* reset custermize */
 body {
-    width: 100%;
-    overflow-x: hidden;
-    font-weight: 400;
-    font-family: 'Helvetica Neue', 'Apple SD Gothic Neo', Arial, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: 'Helvetica Neue', 'Apple SD Gothic Neo', Arial, sans-serif;
 }
+
 input[type=search]::-webkit-search-cancel-button {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
+
 fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
+
 .hide {
-    visibility: hidden;
-    overflow: hidden;
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    width: 1px;
-    height: 1px;
-    font-size: 0;
-    line-height: 0;
-    z-index: -1;
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+  z-index: -1;
 }
 
 /* css icon */
-    /* menu */
+  /* menu */
 .icon_menu {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 26px;
-    height: 4px;
-    margin-top: -2px;
-    color: currentColor;
-    transform: translateX(-50%);
-    background-color: currentColor;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 4px;
+  margin-top: -2px;
+  color: currentColor;
+  transform: translateX(-50%);
+  background-color: currentColor;
 }
+
 .icon_menu::before {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: 0;
-    width: 26px;
-    height: 4px;
-    background-color: currentColor;
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 26px;
+  height: 4px;
+  background-color: currentColor;
 }
+
 .icon_menu::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 26px;
-    height: 4px;
-    background-color: currentColor;
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 26px;
+  height: 4px;
+  background-color: currentColor;
+}
+
+  /* close */
+.icon_close {
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 34px;
+  height: 34px;
+  transform: translate(-50%, -25%);
+}
+
+.icon_close::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 34px;
+  height: 4px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: currentColor;
+}
+
+.icon_close::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 34px;
+  height: 4px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: currentColor;
 }
