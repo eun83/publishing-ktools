@@ -431,3 +431,37 @@ fieldset {
   transform: rotate(45deg);
   background-color: currentColor;
 }
+
+  /* search */
+.icon_search {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  margin-top: 2px;
+  color: currentColor;
+  transform: translate(-50%, -50%);
+}
+
+.icon_search::before {
+  content: '';
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: solid 3px currentColor;
+  border-radius: 100%;
+}
+
+.icon_search::after {
+  content: '';
+  display: block;
+  width: 2.5px;
+  height: 12px;
+  margin-top: -6px;
+  margin-left: 22px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: currentColor;
+}

@@ -138,10 +138,32 @@
 					</ul>
 				</nav>
 
-				<button class="btn_all_menu_open">
-					<i class="icon_menu"></i>
-					<span class="hide">MENU</span>
-				</button>
+				<div class="btn_wrap">
+					<button type="button" class="btn_top_search_open">
+						<i class="icon_search"></i>검색창 열기
+					</button>
+					<button type="button" class="btn_all_menu_open">
+						<i class="icon_menu"></i>메뉴 열기
+					</button>
+				</div>
+				
+			</div>
+
+			<!-- 아래 search_wrap에 active 클래스로 펼침 -->
+			<div class="search_wrap">
+				<form name="">
+					<fieldset>
+						<legend class="hide">검색</legend>
+						<div class="search_inner">
+							<label for="searchTxt" class="hide">검색어 입력</label>
+							<input type="search" id="" class="search_input" title="검색어를 입력해 주세요." placeholder="검색어를 입력해 주세요.">
+							<button type="submit" class="search_btn" title="검색">검색</button>
+							<button type="button" class="close_btn btn_top_search_close" title="검색창 닫기">
+								<i class="icon_close"></i>검색창 닫기
+							</button>
+						</div>
+					</fieldset>
+				</form>
 			</div>
 
 			<div class="all_menu">
@@ -152,13 +174,17 @@
 							<img src="images/ktools_text-logo.svg" alt="KTL 장비관리플랫폼 LOGO">
 						</a>
 					</h1>
-					<button class="btn_all_menu_close">
-						<i class="icon_close"></i>
-						<span class="hide">MENU 닫기</span>
-					</button>
+					<div class="btn_wrap">
+						<button type="button" class="btn_top_search_open">
+							<i class="icon_search"></i>검색창 열기
+						</button>
+						<button type="button" class="btn_all_menu_close">
+							<i class="icon_close"></i>메뉴 닫기
+						</button>
+					</div>
 				</div>
 				<ul class="gnb_layout">
-					<li>
+					<li class="current">
 						<a href="">K-tools 소개</a>
 						<ul>
 							<li>
@@ -239,12 +265,47 @@
 							</li>
 						</ul>
 					</li>
+					<li class="login_menu">
+						<ul>
+							<li><a href="">로그인</a></li>
+							<li><a href="">개인정보수정</a></li>
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</header>
 
 		<main class="contents">
 			<div class="visual">
+				<div class="slider_area">
+					<div id="slider-ktools" class="slider">
+						<div class="visual_01">
+							<p class="title">
+								<strong>스마트한 장비관리 시스템</strong>
+								KTL 장비관리 플랫폼 K-tools
+							</p>
+							<p class="text">
+								<span>K-TOOLS는 고객들에게 보다 편리하고 간편하게 장비 관련 서비스를 제공하고자 합니다.</span>
+								<span>오프라인에서만 가능했던 서비스를 이제 언제 어디서나 온라인으로 쉽게 만나보세요. </span>
+							</p>
+							<ul>
+								<li>
+									<strong>장비관리</strong>
+									<span>등록, 견적, 교정, 알림</span>
+								</li>
+								<li>
+									<strong>시험.측정 데이터관리</strong>
+									<span>ISO GUIDE 35</span>
+								</li>
+								<li>
+									<strong>협동업무</strong>
+									<span>장비, 데이터 공유</span>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
 
 			</div>
 
