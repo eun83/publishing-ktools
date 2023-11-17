@@ -8,14 +8,16 @@
 	<meta name="viewport"
 		content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
 	<!--favicon-->
-	<link rel="icon" href="favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="images/favicon_196.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_32.png">
-	<!-- lib / jquery-ui -->
-	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="icon" href="ktl.ico">
+	<!-- icon -->
+	<!-- lib / js -->
+	<script src="lib/js/jquery-1.12.4.min.js"></script>
+	<script src="lib/js/jquery-ui.min.js"></script>
+	<script src="lib/js/slick.js"></script>   
+	<!-- lib / css -->
+	<link rel="stylesheet" type="text/css" href="lib/css/slick.css">
 	<!-- js -->
 	<script src="js/common.js"></script>
-	<!-- icon -->
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
@@ -76,28 +78,28 @@
 									<a href="">회원정보</a>
 								</li>
 								<li>
-									<a href="">교정 견적 신청</a>
-								</li>
-								<li>
-									<a href="">나의 접수 현황</a>
-								</li>
-								<li>
-									<a href="">협업관리</a>
-								</li>
-								<li>
-									<a href="">나눔터</a>
-								</li>
-								<li>
 									<a href="">장비관리</a>
+								</li>
+								<li>
+									<a href="">교정 견적 신청</a>
 								</li>
 								<li>
 									<a href="">교정 접수 신청</a>
 								</li>
 								<li>
+									<a href="">나의 접수 현황</a>
+								</li>
+								<li>
 									<a href="">시약관리</a>
 								</li>
 								<li>
+									<a href="">협업관리</a>
+								</li>
+								<li>
 									<a href="">시험/측정관리</a>
+								</li>
+								<li>
+									<a href="">나눔터</a>
 								</li>
 								<li>
 									<a href="">교정이란</a>
@@ -185,7 +187,7 @@
 				</div>
 				<ul class="gnb_layout">
 					<li class="current">
-						<a href="">K-tools 소개</a>
+						<a href="">K-tools 소개<i class="icon_arrow"></i></a>
 						<ul>
 							<li>
 								<a href="">K-tools</a>
@@ -199,43 +201,85 @@
 						</ul>
 					</li>
 
-					<li>
-						<a href="">장비관리플랫폼</a>
+					<li class="third_depth">
+						<a href="">장비관리플랫폼<i class="icon_arrow"></i></a>
 						<ul>
 							<li>
 								<a href="">회원정보</a>
-							</li>
-							<li>
-								<a href="">교정 견적 신청</a>
-							</li>
-							<li>
-								<a href="">나의 접수 현황</a>
-							</li>
-							<li>
-								<a href="">협업관리</a>
-							</li>
-							<li>
-								<a href="">나눔터</a>
+								<ul>
+									<li><a href="">가입 절차 안내</a></li>
+									<li><a href="">사업자 등록 번호</a></li>
+									<li><a href="">기업 소속 요청</a></li>
+									<li><a href="">관리자 권한 요청</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="">장비관리</a>
+								<ul>
+									<li><a href="">장비 등록 안내</a></li>
+									<li><a href="">장비관리대장</a></li>
+									<li><a href="">장비 등록</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">교정 견적 신청</a>
+								<ul>
+									<li><a href="">견적 안내</a></li>
+									<li><a href="">교정 견적 신청</a></li>
+									<li><a href="">셀프 수수료 조회</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="">교정 접수 신청</a>
+								<ul>
+									<li><a href="">접수 안내</a></li>
+									<li><a href="">교정신청</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">나의 접수 현황</a>
+								<ul>
+									<li><a href="">접수 진행현황</a></li>
+									<li><a href="">수수료 납부</a></li>
+									<li><a href="">계산서 발행현황(영수)</a></li>
+									<li><a href="">환불/시험 취소</a></li>
+									<li><a href="">성적서/인증서 발급</a></li>
+									<li><a href="">장비 반출예약</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="">시약관리</a>
+								<ul>
+									<li><a href="">품목 등록</a></li>
+									<li><a href="">입고/사용 등록</a></li>
+									<li><a href="">품목별현황조회</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">협업관리</a>
+								<ul>
+									<li><a href="">나의협업</a></li>
+									<li><a href="">참여협업</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="">시험/측정관리</a>
+								<ul>
+									<li><a href="">시험 안내</a></li>
+									<li><a href="">균질성시험</a></li>
+									<li><a href="">안정성시험</a></li>
+								</ul>
 							</li>
+							<li>
+								<a href="">나눔터</a>								
+							</li>							
 							<li>
 								<a href="">교정이란</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="">EXFINDER</a>
+						<a href="">EXFINDER<i class="icon_arrow"></i></a>
 						<ul>
 							<li>
 								<a href="">연구자검색</a>
@@ -255,7 +299,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="">게시판</a>
+						<a href="">게시판<i class="icon_arrow"></i></a>
 						<ul>
 							<li>
 								<a href="">공지사항</a>
