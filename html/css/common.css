@@ -615,11 +615,16 @@ div.search_wrap {
 
 footer {
   position: relative;
-  width: 100%;
+  width: 100%;  
   padding: 60px 1rem;
+  margin-top: 65px;
   font-size: .875rem;
   color: #fff;
   background-color: #0d1521;
+}
+footer > div {
+  max-width: 1600px;
+  margin: 0 auto;
 }
 footer .ft_link {
   display: flex;
