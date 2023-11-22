@@ -126,6 +126,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 header h1 {
   margin-left: 2ch;
@@ -162,6 +163,9 @@ header .btn_wrap > button:last-child {
   color: #ed1c24;
 }
 /* gnb */
+.gnb {
+  width: calc(100% - 600px);
+}
 .gnb .gnb_layout::before {
   content: '';
   display: block;
@@ -192,9 +196,15 @@ header .btn_wrap > button:last-child {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1); 
   opacity: 1;
 }
+.gnb .gnb_layout {
+  display: flex;
+  justify-content: center;
+}
 .gnb .gnb_layout > li {
-  display: inline-flex;
   position: relative;
+  flex-grow: 1;
+  text-align: center;
+  max-width: 250px;
 }
 .gnb .gnb_layout > li > a  {
   display: block;
@@ -311,7 +321,7 @@ header .btn_wrap > button:last-child {
   z-index: 1;
   width: 100%;
   height: 100vh;
-  min-height: 800px;
+  padding-bottom: 20px;
   background: #fff;
   transition: all 0.2s ease-in-out;
   opacity: 0;
@@ -609,6 +619,7 @@ footer p + p {
   }
   .all_menu {
     right: -100%;
+    padding-bottom: 0;
     transition: all .4s cubic-bezier(.59, .01, .43, 1);
   }
   .all_menu > div {
