@@ -2,10 +2,6 @@
 
 /* font */
 /* Corbel - 400, 700 */
-/* SUIT - 100, 200, 300, 400, 500, 600, 700, 800, 900 */
-/* Pretendard - 100, 200, 300, 400, 500, 600, 700, 800, 900 */
-/* Noto Sans CJK KR - 300, 400, 500, 700 */
-/* NanumSquare - 200, 400, 700, 800 */
 /* NanumSquareAc - 200, 400, 700, 800 */
 
 /* corbel */
@@ -21,213 +17,6 @@
   font-weight: 700;
   font-family: 'Corbel';
   src: url('../font/corbelbold-webfont.woff') format('woff');
-}
-
-/* SUIT */
-@font-face {
-  font-style: normal;
-  font-weight: 100;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Thin.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 200;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-ExtraLight.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 300;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Light.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 500;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 600;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-SemiBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 800;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-ExtraBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 900;
-  font-family: 'SUIT';
-  src: url('../font/SUIT-Heavy.woff2') format('woff2');
-}
-
-/* Pretendard */
-@font-face {
-  font-style: normal;
-  font-weight: 100;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Thin.woff') format('woff'),
-    url('../font/Pretendard-Thin.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 200;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-ExtraLight.woff') format('woff'),
-    url('../font/Pretendard-ExtraLight.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 300;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Light.woff') format('woff'),
-    url('../font/Pretendard-Light.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Regular.woff') format('woff'),
-    url('../font/Pretendard-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 500;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Medium.woff') format('woff'),
-    url('../font/Pretendard-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 600;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-SemiBold.woff') format('woff'),
-    url('../font/Pretendard-SemiBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Bold.woff') format('woff'),
-    url('../font/Pretendard-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 800;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-ExtraBold.woff') format('woff'),
-    url('../font/Pretendard-ExtraBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 900;
-  font-family: 'Pretendard';
-  src: url('../font/Pretendard-Black.woff') format('woff'),
-    url('../font/Pretendard-Black.woff2') format('woff2');
-}
-
-/* Noto Sans CJK KR */
-@font-face {
-  font-style: normal;
-  font-weight: 300;
-  font-family: 'Noto Sans CJK KR';
-  src: url('../font/NotoSansCJKKR-Light.woff') format('woff'),
-    url('../font/NotoSansCJKKR-Light.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: 'Noto Sans CJK KR';
-  src: url('../font/NotoSansCJKKR-Regular.woff') format('woff'),
-    url('../font/NotoSansCJKKR-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 500;
-  font-family: 'Noto Sans CJK KR';
-  src: url('../font/NotoSansCJKKR-Medium.woff') format('woff'),
-    url('../font/NotoSansCJKKR-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: 'Noto Sans CJK KR';
-  src: url('../font/NotoSansCJKKR-Bold.woff') format('woff'),
-    url('../font/NotoSansCJKKR-Bold.woff2') format('woff2');
-}
-
-/* NanumSquare */
-@font-face {
-  font-weight: 200;
-  font-family: 'NanumSquare';
-  src: url('../font/NanumSquareL.eot');
-  src: url('../font/NanumSquareL.eot?#iefix') format("embedded-opentype"),
-    url('../font/NanumSquareL.woff') format("woff"),
-    url('../font/NanumSquareL.ttf') format("truetype");
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: 'NanumSquare';
-  src: url('../font/NanumSquareR.eot');
-  src: url('../font/NanumSquareR.eot?#iefix') format("embedded-opentype"),
-    url('../font/NanumSquareR.woff') format("woff"),
-    url('../font/NanumSquareR.ttf') format("truetype");
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: 'NanumSquare';
-  src: url('../font/NanumSquareB.eot');
-  src: url('../font/NanumSquareB.eot?#iefix') format("embedded-opentype"),
-    url('../font/NanumSquareB.woff') format("woff"),
-    url('../font/NanumSquareB.ttf') format("truetype");
-}
-
-@font-face {
-  font-weight: 800;
-  font-family: 'NanumSquare';
-  src: url('../font/NanumSquareEB.eot');
-  src: url('../font/NanumSquareEB.eot?#iefix') format("embedded-opentype"),
-    url('../font/NanumSquareEB.woff') format("woff"),
-    url('../font/NanumSquareEB.ttf') format("truetype");
 }
 
 /* NanumSquareAc */
@@ -274,14 +63,12 @@
   font: inherit;
   color: inherit;
 }
-
 *,
 ::before,
 ::after {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-
 :root {
   line-height: 1.5;
   cursor: default;
@@ -295,7 +82,6 @@
   -moz-tab-size: 4;
   tab-size: 4;
 }
-
 html,
 body {
   height: 100%;
@@ -309,29 +95,24 @@ svg {
   display: block;
   max-width: 100%;
 }
-
 button {
   border: 0;
   background: none;
   cursor: pointer;
 }
-
 a,
 a:focus,
 a:hover {
   text-decoration: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 /* reset custermize */
 body {
   width: 100%;
@@ -339,17 +120,14 @@ body {
   font-weight: 400;
   font-family: 'Helvetica Neue', 'Apple SD Gothic Neo', Arial, sans-serif;
 }
-
 input[type=search]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
-
 fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
-
 .hide {
   visibility: hidden;
   overflow: hidden;
@@ -362,7 +140,6 @@ fieldset {
   line-height: 0;
   z-index: -1;
 }
-
 /* css icon */
   /* menu */
 .icon_menu {
@@ -377,7 +154,6 @@ fieldset {
   transform: translateX(-50%);
   background-color: currentColor;
 }
-
 .icon_menu::before {
   content: '';
   position: absolute;
@@ -387,7 +163,6 @@ fieldset {
   height: 4px;
   background-color: currentColor;
 }
-
 .icon_menu::after {
   content: '';
   position: absolute;
@@ -397,7 +172,6 @@ fieldset {
   height: 4px;
   background-color: currentColor;
 }
-
   /* close */
 .icon_close {
   display: block;
@@ -407,7 +181,6 @@ fieldset {
   height: 34px;
   transform: translate(-50%, -25%);
 }
-
 .icon_close::before {
   content: '';
   position: absolute;
@@ -419,7 +192,6 @@ fieldset {
   transform: rotate(-45deg);
   background-color: currentColor;
 }
-
 .icon_close::after {
   content: '';
   position: absolute;
@@ -431,7 +203,6 @@ fieldset {
   transform: rotate(45deg);
   background-color: currentColor;
 }
-
   /* search */
 .icon_search {
   position: absolute;
@@ -443,7 +214,6 @@ fieldset {
   color: currentColor;
   transform: translate(-50%, -50%);
 }
-
 .icon_search::before {
   content: '';
   display: block;
@@ -452,7 +222,6 @@ fieldset {
   border: solid 3px currentColor;
   border-radius: 100%;
 }
-
 .icon_search::after {
   content: '';
   display: block;
@@ -464,7 +233,6 @@ fieldset {
   transform: rotate(-45deg);
   background-color: currentColor;
 }
-
 /* icon_arrow : menu */
 .icon_arrow {
   display: block;

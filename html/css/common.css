@@ -7,7 +7,6 @@
   --menu-hover_color: #2569d2;
   --gnb_menu-height: 326px;
 }
-
 html,
 body {
   width: 100%;
@@ -26,7 +25,6 @@ body {
   position: relative;
   width: 100%;
 }
-
 /* skip_navi */
 .skip_navi a {
   position: absolute;
@@ -48,7 +46,6 @@ body {
   color: #fff;
   text-align: center;
 }
-
 /* header */
 header {
   position: fixed;
@@ -60,7 +57,6 @@ header {
 .fixed-header {
   border-bottom: 1px solid #e1e1e1;
 }
-
 /* Top Navigation Bar */
 .tnb_area {
   display: flex;
@@ -118,18 +114,17 @@ header {
 .tnb .privacy::before {
   background: url(../images/icon_privacy.svg) no-repeat;
 }
-
 /* gnb */
 .gnb_area,
 .all_menu > div  {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  flex-wrap: wrap;
 }
 header h1 {
-  margin-left: 2ch;
+  margin-left: 2rem;
 }
 header h1 img {
   display: inline;
@@ -202,9 +197,9 @@ header .btn_wrap > button:last-child {
 }
 .gnb .gnb_layout > li {
   position: relative;
-  flex-grow: 1;
-  text-align: center;
   max-width: 250px;
+  text-align: center;
+  flex-grow: 1;
 }
 .gnb .gnb_layout > li > a  {
   display: block;
@@ -306,7 +301,6 @@ header .btn_wrap > button:last-child {
 .gnb > .gnb_layout.open li:hover ul {
   background-color: #eaeef4;
 }
-
 /* all menu */
 .all_menu.active {
   visibility: visible;
@@ -321,7 +315,7 @@ header .btn_wrap > button:last-child {
   z-index: 1;
   width: 100%;
   height: 100vh;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   background: #fff;
   transition: all 0.2s ease-in-out;
   opacity: 0;
@@ -333,7 +327,6 @@ header .btn_wrap > button:last-child {
   z-index: 1;
   width: 100%;
   height: 165px;
-  padding: 40px 0 35px; 
   background:#fff url(../images/bg_all_menu.png) no-repeat;
   background-position: bottom -5px left 12vw;
 }
@@ -383,23 +376,23 @@ header .btn_wrap > button:last-child {
 }
 .all_menu .gnb_layout .third_depth > ul ul a {
   display: block;
+  padding: 3px 0;
   font-weight: 400;
   font-size: .875rem;
-  padding: 3px 0;
 }
 .all_menu .gnb_layout .third_depth > ul ul a::before {
   content: '';
   display: inline-block;
   width: 4px;
   height: 3px;
-  background-color: #3c3c3c;
-  vertical-align: middle;
   margin-right: 10px;
+  vertical-align: middle;
+  background-color: #3c3c3c;
 }
 .all_menu .gnb_layout .login_menu {
   position: absolute;
-  left: 58%;
   top: 520px;
+  left: 58%;
 }
 .all_menu .gnb_layout .login_menu a {
   font-weight: 400;
@@ -409,9 +402,9 @@ header .btn_wrap > button:last-child {
   display: inline-block;
   width: 3px;
   height: 3px;
-  background-color: currentColor;
-  vertical-align: middle;
   margin-right: 10px;
+  vertical-align: middle;
+  background-color: currentColor;
 }
 /* hover */
   .all_menu .gnb_layout > li > a:hover::after,
@@ -432,11 +425,6 @@ header .btn_wrap > button:last-child {
   .all_menu .gnb_layout .third_depth > ul ul a:hover::before {
     background-color: currentColor;
   }
-
-
-
-
-
 /* search */
 .search_wrap.active,
 .search_wrap.active::before {
@@ -495,7 +483,7 @@ div.search_wrap {
   line-height: 1.5rem;
 }
 .search_wrap .search_inner input::placeholder {
-  font: 700 1.125rem 'NanumSquare';
+  font: 700 1.125rem 'NanumSquareAc';
   color: #d3d3d3;
 }
 .search_wrap .search_inner input:focus {
@@ -506,7 +494,7 @@ div.search_wrap {
   height: 68px;
   padding: 24px 50px 23px;
   background: #0060ce;
-  font: 700 1.125rem 'NanumSquare';
+  font: 700 1.125rem 'NanumSquareAc';
   color: #fff;
 }
 .search_wrap .search_inner .close_btn {
@@ -519,13 +507,12 @@ div.search_wrap {
   left: auto;
   margin-top: 4px;
 }
-
 /* footer */
 footer {
   position: relative;
-  width: 100%;  
+  width: 100%;
+  margin-top: 65px;  
   padding: 60px 1rem;
-  margin-top: 65px;
   font-size: .875rem;
   color: #fff;
   background-color: #0d1521;
@@ -625,15 +612,15 @@ footer p + p {
   .all_menu > div {
     height: 85px;
     padding: 0;
-    background: none;
     border-bottom: 1px solid #ccc;
+    background: none;
   }  
   .all_menu .gnb_layout {
     display: block;
-    width: 100%;
-    max-width: 400px;
-    height: calc(100vh - 146px);
     overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 146px);
+    max-width: 400px;
     margin: 86px 0 60px;
     margin-top: 86px;
     padding: 30px;
@@ -661,16 +648,16 @@ footer p + p {
     display: block;
   }
   .all_menu .gnb_layout li > ul > li > a {
-    font-size: 1rem;
     font-weight: 600;
+    font-size: 1rem;
   }
   .all_menu .gnb_layout li > ul > li > a::before {
     content: '';
     display: inline-block;
-    vertical-align: middle;
     width: 3px;
     height: 3px;
     margin: 0 10px;
+    vertical-align: middle;
     background-color: currentColor;
   }
   .all_menu .gnb_layout li > ul > li + li {
@@ -709,9 +696,9 @@ footer p + p {
     }
   .all_menu .gnb_layout > .login_menu {
     position: fixed;
+    top: auto;
     bottom: 0;
     left: 0;
-    top: auto;
     width: 100%;
     padding: 10px 30px;
     background: #444;
@@ -726,8 +713,8 @@ footer p + p {
   }
   .all_menu .gnb_layout .login_menu > ul > li > a {
     padding: 10px;
-    font-size: .875rem;
     font-weight: 200;
+    font-size: .875rem;
     color: #fff;
   }
   .all_menu .gnb_layout > .login_menu a::before {
@@ -745,10 +732,9 @@ footer p + p {
     flex-direction: column-reverse;
   }
   .ft_link ul {
-    margin-bottom: 10px;
     justify-content: flex-end;
+    margin-bottom: 10px;
   }
-
 }
 @media screen and (max-width: 480px) {
   header h1 img {
